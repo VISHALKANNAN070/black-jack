@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #f0f0f0; /* Light background */
+    font-family: Arial, sans-serif; /* Clean font */
+    color: #333; /* Dark text color */
+    display: flex;
+    justify-content: center; /* Align container horizontally */
+    align-items: center; /* Align container vertically */
+    height: 100vh; /* Full height of viewport */
+}
+
+.container {
+    max-width: 400px; /* Limit container width for better readability */
+    padding: 20px;
+    background: linear-gradient(135deg, #ffffff, #f0f0f0); /* Gradient background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3); /* Increased depth box shadow */
+    transition: background-color 0.3s; /* Smooth transition for background color change */
+}
+
+.container:hover {
+    background: linear-gradient(135deg, #f0f0f0, #ffffff); /* Gradient background on hover */
+}
+
+h1 {
+    font-size: 2.5rem; /* Larger font size for the heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+    font-weight: bold; /* Increased font weight for headings */
+    transition: color 0.3s; /* Smooth transition for text color change */
+}
+
+.container:hover h1 {
+    color: #4CAF50; /* Green text color on hover */
+}
+
+p {
+    font-size: 1.2rem; /* Medium font size for paragraphs */
+    margin-bottom: 10px; /* Add some space below paragraphs */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+button {
+    margin: 10px auto;
+    width: 100%; /* Button takes full width of the container */
+    padding: 15px; /* Larger padding for better button appearance */
+    background-color: #4CAF50; /* Green background color */
+    border: none;
+    border-radius: 15px; /* Slightly rounded border */
+    font-family: Arial, sans-serif; /* Use clean font */
+    color: #fff; /* White text color */
+    font-size: 1.2rem; /* Font size */
+    font-weight: bold; /* Increased font weight for buttons */
+    cursor: pointer; /* Cursor style on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition for background color change and scale */
+}
+
+button:hover {
+    background-color: #38933c; /* Darker green on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Shadow on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+}
